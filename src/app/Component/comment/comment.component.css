@@ -1,0 +1,114 @@
+.ab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.comments-container {
+  max-width: 600px;
+  border: 3px solid #3498db; /* Change border color */
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 20px #3498db; /* Change box shadow color */
+}
+ 
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #db34b1; /* Change heading color */
+}
+ 
+.comment-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f2f2f2; /* Change background color */
+}
+ 
+.comment-item strong {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333; /* Change text color */
+}
+ 
+.comment-item p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #333; /* Change text color */
+}
+ 
+.add-comment {
+  margin-top: 30px;
+  border: 1px solid rgb(250, 188, 188);
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f1b7b7; /* Change background color */
+}
+ 
+h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #333; /* Change heading color */
+}
+ 
+form {
+  display: flex;
+  flex-direction: column;
+}
+ 
+.form-group {
+  margin-bottom: 15px;
+}
+ 
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+ 
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(229, 157, 243);
+  border-radius: 5px;
+  font-size: 14px;
+}
+ 
+button {
+  padding: 10px 15px;
+  background-color: #4e0361; /* Change button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+button:hover {
+  background-color: #2980b9; /* Change button hover color */
+}
+
+
+.add-comment {
+  margin-top: 30px;
+  border: 1px solid rgb(134, 4, 151);
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 203, 244, 0.8); /* Added background color */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+/* Modified CSS for h4 */
+.add-comment h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: white; /* Set text color to white */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+

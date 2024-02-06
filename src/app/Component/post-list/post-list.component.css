@@ -1,0 +1,82 @@
+.container {
+  margin: 100px 10px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  height: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.a{
+  background-repeat: no-repeat;
+background-size: 200%;
+background-position: center;
+}
+
+.news-container {
+  display: inline-flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.news-card, .course-card {
+  width: 400px; 
+  height: 400px;
+  margin: 10px;
+  border-radius: 3px;
+  background-color: #e1ffc5; 
+  border: 3px solid #8787ff; 
+  border-style: dotted;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.news-card {
+  border-width: 5px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.course-card {
+  height: 320px; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.news-buttons {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.btn {
+  width: 150px; 
+  height: 40px;
+  border: none;
+  margin: 5px;
+  border-radius: 3px; 
+  border-style:outset;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn-detail {
+  background-color: #fa3526de; 
+  color: rgb(252, 249, 249); 
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  /* font-family: 'Poppins', sans-serif; */
+  font-size: 2.5rem; 
+  font-weight: 600;
+  color: #13131a; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn-read {
+  background-color: #9514ff; 
+  color: rgb(255, 255, 255); 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

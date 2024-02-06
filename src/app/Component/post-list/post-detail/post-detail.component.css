@@ -1,0 +1,44 @@
+.ab{
+  display: flex;
+justify-content: center;
+  align-items: center;
+  height: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.a{
+
+  background-repeat: no-repeat;
+
+background-size: 200%;
+
+background-position: center;
+
+}
+.card{
+  width: 400px;
+  height: auto;
+  background-color: rgb(255, 241, 204);
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 40px;
+  border: 3px solid rgb(223, 219, 196);
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgb(216, 212, 193);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.custom-back-button {
+  
+  background-color: #057705; 
+  color: #ffffff; 
+  border: none; 
+  border-style: outset;
+  padding: 6px 40px;
+  font-size: 14px;
+  
+}
+
+.custom-back-button:hover {
+  
+  background-color: #063466; 
+}

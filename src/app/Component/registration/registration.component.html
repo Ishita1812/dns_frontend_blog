@@ -1,0 +1,45 @@
+<div class="ab" style="background-color: rgb(190, 248, 226);">
+  <div class="registration-container" >
+    <h2 style="color: rgb(245, 241, 241);"><b>Registration Page</b></h2><br>
+    
+    <form (ngSubmit)="onSubmit(registrationForm.value)" #registrationForm="ngForm">
+      <div class="form-group">
+        <label for="firstName">Enter First Name:</label>
+        <input type="text" id="fName"  name="fName" [(ngModel)]="reg.fName" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="lastName">Enter Last Name:</label>
+        <input type="text" id="lName"  name="lName" [(ngModel)]="reg.lName" required>
+      </div>
+  
+         
+      <div class="form-group">
+        <label for="username">Enter Username:</label>
+        <input type="text" id="username"  name="username" [(ngModel)]="reg.username" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="email">Enter Email Id:</label>
+        <input type="email" id="email"  name="email" [(ngModel)]="reg.email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="password">Enter Password:</label>
+        <input type="password" id="password"  name="password" [(ngModel)]="reg.password" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="confirmPassword">Enter Confirm Password:</label>
+        <input type="password" id="cnfrmPassword"  name="cnfrmPassword" [(ngModel)]="reg.cnfrmPassword" required>
+      </div>
+      
+      <div class="error-message" *ngIf="registrationForm.invalid && (registrationForm.dirty || registrationForm.touched)">
+        Please fill out all the required fields
+      </div>
+      
+      <button type="submit" [disabled]="registrationForm.invalid" >Register</button>
+    </form>
+  </div>
+  </div>
+  
